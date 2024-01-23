@@ -1,0 +1,144 @@
+About us:
+During the ‘National Conference of Chief Secretaries’ held on 15-17 June 2022, Hon’ble Prime Minister emphasized a creation of ‘Dashboard for cities’ so as to compare themselves against other cities in their State as well as across the country.
+Accordingly, AAINA – Dashboard for cities, an initiative of Ministry of Housing and Urban Affairs is being envisaged which would serve as a tool for comparing similarly placed ULBs and promoting peer learning amongst ULBs. This dashboard will inspire the ULBs by pointing to possibilities and areas of improvement and providing them the opportunity to learn and engage with frontrunners.
+The dashboard will provide information on status and progress of the cities on five broad thematic areas viz. Political and Administrative Structure, Finance, Planning, Citizen Centric Governance and Delivery of Basic Services. The proposed list of indicators being captured across these thematic areas are:-
+Political and Administrative
+Finance
+Planning
+Citizen Centric Governance
+Delivery of Basic Services
+
+Guidelines to fill the
+Indicator Form
+for
+ULB Users:
+
+Version 1.1
+
+Page | 1
+
+Contents
+Guidelines to fill the Indicators Form ..................................................................3
+Step 1: Accessing the AAINA Portal ........................................................................................... 3
+Step 2: Login for ULBs ............................................................................................................... 3
+Step 3: Fill in the ULB Information .............................................................................................. 7
+Step 4: Fill in the Indicator Form ................................................................................................. 8
+Step 5: Final Submission .......................................................................................................... 14
+Edit Form functionality post final document submission! ........................................................... 18
+
+Page | 2
+
+Guidelines to fill the Indicators Form
+Step 1: Accessing the AAINA Portal
+Open a web browser on your computer or mobile device and navigate to the AAINA Portal website. You can do
+this by typing the portal's URL (https://aaina.gov.in/) into the address bar and pressing Enter.
+
+Step 2: Login for ULBs
+On the portal's homepage, locate the "Login" button. On clicking Login, A dropdown menu will appear with
+three options: ULB, State/UT and MOHUA. Select the "ULB" option from the dropdown menu. Upon selecting
+ULB, you will be redirected to the login page specifically designed for ULB users.
+Note: The login credentials for the ULB login are the same as those used for login into the 15 FC Grant Module of
+the City Finance Portal (https://cityfinance.in/login).
+
+Page | 3
+
+Upon reaching the ULB login page, ULB users will be presented with two options to log in i.e., Login With
+Password and Login With OTP
+
+Login With Password
+
+
+Enter the Census Code/ULB Code and Password.
+Complete the captcha verification to ensure secure access.
+Click the "Login" button to proceed.
+
+Page | 4
+
+Forgot Password
+
+Clicking on the "Forgot Password" link redirects the user to the "Forgot Password" screen.
+On this screen, the user is required to enter their Census Code/ULB Code and fill in the captcha.
+After providing the necessary details, the user can proceed by clicking the "Continue" button.
+The system sends an OTP to the email address and phone number registered with the user's City
+Finance account.
+In case the OTP is not received, the user has the option to request a resend of the OTP by
+clicking on “Resend OTP” link.
+Once the OTP is received, the user needs to enter it along with the desired new password and
+confirm the new password in the designated fields.
+After filling in the required details, the user can finalize the process by clicking the "Reset
+Password" button.
+
+Page | 5
+
+Login With OTP
+Enter the Census Code/ULB Code and click on “Send OTP” link.
+The system sends an OTP to the email address and phone number registered with the user's City
+Finance account.
+o In case the OTP is not received, the user has the option to request a resend of the OTP by
+clicking on “Resend OTP” link.
+o Enter OTP and complete the captcha verification to ensure secure access.
+o Click the "Login" button to proceed.
+
+Page | 6
+Step 3: Fill in the ULB Information
+•
+
+After successfully logging in, ULB users will be redirected to the “ULB information” page. The user will
+fill in the information in various sub sections of ULB Information i.e., Basic Details, Administrative
+Authority, Public Representative and Nodal Officer.
+
+Page | 7
+Step 4: Fill in the Indicator Form
+•
+
+Indicator Form: Complete all the questions for each indicator category, including Political and
+Administrative, Finance, Planning, Citizen Centric Governance, and Delivery of Basic Services.
+
+Page | 8
+Page | 9
+
+Upload Last Audited Financial Document
+After filling all the questions in the Indicator Forms, Upload the Latest last Audited Statement in Section
+No. 6.
+
+Page | 10
+
+Page | 11
+
+Page | 12
+
+You can remove the uploaded financial statement by clicking on “X” Mark and upload the new one.
+
+Page | 13
+
+Step 5: Final Submission
+
+Preview and Update Responses: The data filled in ULB information and Indicator Form (Section 1 till
+Section 5) will be displayed in this section. Review your answers for all the indicators and ensure they
+are accurate and complete.
+Responses not filled will be highlighted in Red and you can submit the response for those Indicators in
+the respective sections. Take this opportunity to make any necessary updates or modifications by going
+to respective sections.
+
+Download for Signature and Stamp: Once all the Indicators are filled, Download the form by clicking on
+“Download for Stamp and Signature” and obtain the required signatures and stamps from the relevant
+authorities. Ensure all necessary authorizations are in place.
+
+Page | 14
+
+Final Submission: Once the form is signed and stamped, take the scan of the same and upload the
+finalized document.
+
+Page | 15
+
+The user can download the uploaded document by clicking on “Download signed form for reference” on Step 2
+of Final Submission.
+Page | 17
+
+
+Edit Form functionality post final document submission!
+Once the signed form is uploaded/submitted, the indicators can be updated using the “Edit Form” functionality
+from the profile menu.
+After updating the Indicators, the user will have to download the form from the 'Preview & Download' section,
+take the printout of the same and get it signed and stamped from appropriate authorities and upload the final
+document.

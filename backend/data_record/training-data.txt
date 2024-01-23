@@ -1,0 +1,71 @@
+FAQs
+Q: What is the AAINA portal about?
+A: AAINA envisage to provide the interface to the ULBs across India to submit the Information on various Thematic areas such as Finance, Public Administration, Planning etc.
+
+Q: Will there be any ranking done based on the data collected?
+A: No, there will be no ranking based on the information provided.
+
+Q: Will there be any impact on grants based on the information provided?
+A: No, there will be no impact on grants to ULBs based on the information provided.
+
+Q: How can I fill and complete the Indicator form for my ULB?
+"A: 
+1. Login - Access your account using 15th FC Grant Module credentials.
+2. ULB Information - After log in, you will be redirected to ULB information page to provide information about your ULB.
+3. Indicator Form - Fill the information on 5 thematic areas i.e Political & Administrative Structure, Finance, Planning, Citizen Centric Governance and Delivery of Basic Services.
+4. Upload Last Audited Financial Document.
+5. Preview and Update Responses - Review your answers for all the indicators and ensure they are accurate and complete. Take this opportunity to make any necessary updates or modifications by going to respective sections.
+6. Download for Signature and Stamp - Download the form and obtain the required signatures and stamps from the relevant authorities. Ensure all necessary authorizations are in place.
+7. Final Submission - Once the form is signed and stamped, upload the finalized document."
+
+
+Q: Can I choose between "ULB code / Census Code and password" login and OTP login?
+A: Yes, the platform offers both via - 'ULB code / Census Code and password' and 'Login with OTP' options, allowing you to select the method that suits you best.
+
+Q: How does "ULB code / Census Code and password" login work?
+A: To login, you will have to use your Login credentials that you have previously used for login on the CityFinance.in portal.
+
+Q: How does login  with OTP work?
+A: OTP login involves receiving a One-Time Password (OTP) on your registered mobile number / email. After entering the OTP on the login page, you will gain access to your account.
+
+Q: How do I resend an OTP?
+"A: You can follow these steps:
+1. Look for an option or link that says 'Resend OTP' on OTP login page.
+2. Click on the 'Resend OTP' option to initiate the request.
+3. Wait for the system to generate and send a new OTP to your registered mobile number / email.
+4. Check your mobile/email for the new OTP. It may take a few moments to arrive."
+
+Q: How do I reset my password?
+"A: You can follow these steps:
+1. Click on Forget password
+2. Enter the ULB Code / Census Code
+3. OTP will be received on your registered phone number / email.
+4. Enter OTP, new password, and confirm new password
+5. Your password will be updated, you may use this new password now for login to AAINA portal."
+
+Q: What are the different Indicators on which ULBs performance is mapped?
+A: Political and Administrative Structure, Finance, Planning, Citizen Centric Governance, and Delivery of Basic Services. 
+
+Q: Which financial document I need to upload for my ULB?
+A: The latest audited financial statement of ULB needs to be uploaded.
+
+Q: If I don’t have each Indicator data, can I fill in the rest information later?
+A: Yes, you may fill the Indicator forms steps later on and can directly fill the forms for which details are available now. The data filled will be saved and you can edit it at any time(till the final submit). Once all the Indicator forms data is filled, the forms needs to be printed and signed by appropriate authorities. This signed and stamped document(in pdf format) needs to be uploaded again for final form submission.
+
+Q: What details to fill in for the Basic profile Information?
+"A : After login to your ULB Profile, you will need to fill in the basic details as defined in the page.
+1. Population of your ULB as per 2011 census.
+2. Current/Latest Population.
+3. Number of wards in the ULB.
+4. Administrative Authority Details related to your Administration authority profile person information: Designation, Name, Email Address, Mobile Number.
+5. Public Representative Details related to your Public Representative authority profile person information : Designation, Name, Email Address, Mobile Number.
+6. Nodal Officer person information There is a checkbox to select if the Nodal officer profile information is the same as of the Administrative Authority, please check this checkbox(in case the information is same). Else fill the information separately.                                                                                                                                                                                                  "
+
+Q: Will AAINA provide multilingual support?
+A: Currently the portal is in English. It’s not multilingual supported.
+
+Q: Is there any size limit to upload last audited financial statement and the Final submitted document?
+A: Yes, There is 40mb file size limit to upload last audited financial statement and the Final submitted document.
+
+Q: Can I use the AAINA portal on a mobile device?
+A: Yes, AAINA portal is responsive and it can also be used on Mobile devices. Also, very soon,a Mobile app will also be launched.
