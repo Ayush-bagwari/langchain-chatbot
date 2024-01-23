@@ -69,7 +69,7 @@ function App() {
           type="text"
           name="message"
           value={message}
-          placeholder="Type a message here and hit Enter..."
+          placeholder="Type a message here and hit Enterr..."
           onChange={(e) => setMessage(e.target.value)}
         />
       </form>
