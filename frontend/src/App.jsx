@@ -21,7 +21,7 @@ function App() {
     setChats(msgs);
 
     setMessage("");
-    fetch("http://localhost:8000/get-answer", {
+    fetch("https://arya-chatbot.onrender.com/get-answer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
