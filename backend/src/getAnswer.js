@@ -3,47 +3,35 @@ const {
   OpenAIEmbeddings,
 } = require("@langchain/openai");
 const { LLMChain } = require("langchain/chains");
-const { BufferWindowMemory, BufferMemory} = require("langchain/memory");
+const { BufferWindowMemory } = require("langchain/memory");
 const {
   formatDocumentsAsString,
 } = require("langchain/util/document");
 const { PromptTemplate } = require("@langchain/core/prompts");
 const { RunnableSequence } = require("@langchain/core/runnables");
-const { Chroma } = require("@langchain/community/vectorstores/chroma");
-const { RedisChatMessageHistory } = require("@langchain/community/stores/message/ioredis");
-const moment = require('moment');
 const { Pinecone } = require("@pinecone-database/pinecone");
 const { PineconeStore } = require("langchain/vectorstores/pinecone");
 
-// const memory = new BufferWindowMemory({
-//   memoryKey: "chatHistory",
-//   inputKey: "question",
-//   outputKey: "text",
-//   returnMessages: true,
-//   k: 3,
-// });
-console.log('inside getanswer file');
+const memory = new BufferWindowMemory({
+  memoryKey: "chatHistory",
+  inputKey: "question",
+  outputKey: "text",
+  returnMessages: true,
+  k: 3
+});
+console.log("checking1");
 async function getAnswer(req, res) {
+  console.log("checking2");
 
   const { question } = req.body;
   try {
-    console.log(moment().format('YYMMDDHHmm'));
-    const memory = new BufferMemory({
-      chatHistory: new RedisChatMessageHistory({
-        sessionId: moment().format('YYMMDDHHmm'), // Or some other unique identifier for the conversation
-        sessionTTL: 300, // 5 minutes, omit this parameter to make sessions never expire
-        url: "redis://localhost:6379", // Default value, override with your own instance's URL
-      }),
-    });
-    console.log('inside getanswer api');
   const pinecone = new Pinecone();
   const pineconeIndex = pinecone.Index(process.env.PINECONE_INDEX);
-      console.log("checking");
+
   const vectorStore = await PineconeStore.fromExistingIndex(
     new OpenAIEmbeddings({ openAIApiKey: process.env.OPENAI_API_KEY }),
     { pineconeIndex }
   );
-
   const retriever = vectorStore.asRetriever();
   const serializeChatHistory = (chatHistory) =>
     chatHistory
@@ -71,7 +59,7 @@ async function getAnswer(req, res) {
   );
 
   const questionGeneratorTemplate = PromptTemplate.fromTemplate(
-    `Given the following conversation and a follow-up question,if you are sure the question is not complete rephrase the follow-up question to be a standalone question.
+    `Given the following conversation and a follow-up question, rephrase the follow-up question to be a standalone question.
     ----------
     CHAT HISTORY: {chatHistory}
     ----------
@@ -101,7 +89,7 @@ async function getAnswer(req, res) {
     // Serialize context and chat history into strings
     const serializedDocs = formatDocumentsAsString(input.context);
     const chatHistoryString = input.chatHistory
-      ? input.chatHistory
+      ? serializeChatHistory(input.chatHistory)
       : null;
     if (chatHistoryString) {
       // Call the faster chain to generate a new question
@@ -113,6 +101,7 @@ async function getAnswer(req, res) {
 
       newQuestion = text;
     }
+
     const response = await answerGeneratorChain.invoke({
       chatHistory: chatHistoryString ?? "",
       context: serializedDocs,
@@ -139,16 +128,9 @@ async function getAnswer(req, res) {
       question: (input) => input.question,
       // Fetch the chat history, and return the history or null if not present
       chatHistory: async () => {
-        // const context = await memory.getContext({
-        //   sessionId: "12345"
-        // });
-        console.log("checki");
-        console.log(memory);          
-        const savedMemory = await memory.loadMemoryVariables();
-        console.log(savedMemory);
-        // const hasHistory = savedMemory.chatHistory.length > 0;
-        // return hasHistory ? savedMemory.chatHistory : null;
-        return savedMemory;
+        const savedMemory = await memory.loadMemoryVariables({});
+        const hasHistory = savedMemory.chatHistory.length > 0;
+        return hasHistory ? savedMemory.chatHistory : null;
       },
       // Fetch relevant context based on the question
       context: async (input) =>
@@ -163,7 +145,7 @@ async function getAnswer(req, res) {
     answer: resultOne.result,
   });
 } catch (error) {
-  console.log(error);
+    console.log(error);
     return res.status(500).send({
       message: "Something went wrong",
       error,
