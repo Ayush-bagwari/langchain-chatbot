@@ -19,6 +19,7 @@ const memory = new BufferWindowMemory({
   returnMessages: true,
   k: 3
 });
+console.log("checking1");
 async function getAnswer(req, res) {
 
   const { question } = req.body;

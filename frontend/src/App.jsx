@@ -21,7 +21,7 @@ function App() {
     setChats(msgs);
 
     setMessage("");
-    fetch("https://arya-chatbot.onrender.com/get-answer", {
+    fetch("http://localhost:3000/get-answer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -61,7 +61,7 @@ function App() {
 
       <div className={isTyping ? "" : "hide"}>
         <p>
-          <i>{isTyping ? "Typing" : ""}</i>
+          <i>{isTyping ? "Typing..." : ""}</i>
         </p>
       </div>
       <form action="" onSubmit={(e) => chat(e, message)}>
@@ -69,7 +69,7 @@ function App() {
           type="text"
           name="message"
           value={message}
-          placeholder="Type a message here and hit Enterr..."
+          placeholder="Type a message here and hit Enter..."
           onChange={(e) => setMessage(e.target.value)}
         />
       </form>
